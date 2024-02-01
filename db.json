@@ -1,0 +1,187 @@
+{
+  "seller": [
+    {
+      "name": "Shreyas",
+      "email": "ss@ss.com",
+      "password": "123",
+      "id": "1"
+    },
+    {
+      "name": "Shripad",
+      "email": "sp@sp.com",
+      "password": "123",
+      "id": "2"
+    },
+    {
+      "name": "tony",
+      "password": "123",
+      "email": "asd@asd.com",
+      "id": "3"
+    },
+    {
+      "name": "guest",
+      "password": "123",
+      "email": "dfg@was.com",
+      "id": "4"
+    },
+    {
+      "name": "mike",
+      "password": "mike",
+      "email": "mike@gg.com",
+      "id": "5"
+    },
+    {
+      "name": "baby",
+      "password": "baby",
+      "email": "baby@gmail.com",
+      "id": "6"
+    },
+    {
+      "name": "w",
+      "password": "we",
+      "email": "we@rf.com",
+      "id": "7"
+    },
+    {
+      "name": "ss",
+      "password": "aax",
+      "email": "we@rf.com",
+      "id": "8"
+    }
+  ],
+  "products": [
+    {
+      "name": "Blueberry Phone",
+      "price": "111",
+      "color": "red",
+      "description": "Mobile Phone",
+      "url": "https://rukminim1.flixcart.com/image/850/1000/mobile/3/d/e/spice-blueberry-express-original-imad4fn6swegfbn2.jpeg?q=20",
+      "id": "1"
+    },
+    {
+      "name": "Blueberry White",
+      "price": "56",
+      "color": "red",
+      "description": "Blueberry White",
+      "url": "https://m.media-amazon.com/images/I/41yczj52++L.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Oppo Phone",
+      "price": "8000",
+      "color": "white",
+      "description": "aOppo Phone",
+      "url": "https://cdn1.smartprix.com/rx-ipN4tnrld-w1200-h1200/pN4tnrld.jpg",
+      "id": "3"
+    },
+    {
+      "name": "red mi",
+      "price": "5699",
+      "color": "blue",
+      "description": "test",
+      "url": "https://i.gadgets360cdn.com/products/large/redmi-note-12-5g-pro-plus-db-gadgets360-800x600-1673019783.jpg",
+      "id": "4"
+    },
+    {
+      "name": "iphone",
+      "price": "7000",
+      "color": "black",
+      "description": "mioo",
+      "url": "https://www.designinfo.in/wp-content/uploads/2023/01/Apple-iPhone-14-Pro-Mobile-Phone-493177786-i-1-1200Wx1200H-optimized.jpeg",
+      "id": "5"
+    }
+  ],
+  "users": [
+    {
+      "name": "wer",
+      "email": "sddff@wsx.com",
+      "password": "123",
+      "id": "1"
+    },
+    {
+      "name": "ree",
+      "email": "wert@wsx.com",
+      "password": "123",
+      "id": "2"
+    },
+    {
+      "name": "qaz",
+      "email": "qaz!qaz.com",
+      "password": "123",
+      "id": "3"
+    },
+    {
+      "name": "Jim",
+      "email": "jim@example.com",
+      "password": "123",
+      "id": "4"
+    }
+  ],
+  "cart": [
+    {
+      "id": "559a",
+      "name": "ss1",
+      "price": "111",
+      "color": "red",
+      "description": "sdff",
+      "url": "https://rukminim1.flixcart.com/image/850/1000/mobile/3/d/e/spice-blueberry-express-original-imad4fn6swegfbn2.jpeg?q=20",
+      "quantity": 1,
+      "userId": "3",
+      "productId": "1"
+    },
+    {
+      "id": "3fe5",
+      "name": "Blueberry Phone",
+      "price": "111",
+      "color": "red",
+      "description": "Mobile Phone",
+      "url": "https://rukminim1.flixcart.com/image/850/1000/mobile/3/d/e/spice-blueberry-express-original-imad4fn6swegfbn2.jpeg?q=20",
+      "quantity": 1,
+      "userId": "2",
+      "productId": "1"
+    },
+    {
+      "id": "3a68",
+      "name": "Blueberry White",
+      "price": "56",
+      "color": "red",
+      "description": "Blueberry White",
+      "url": "https://m.media-amazon.com/images/I/41yczj52++L.jpg",
+      "quantity": 1,
+      "userId": "4",
+      "productId": "2"
+    }
+  ],
+  "orders": [
+    {
+      "email": "shreyas.dhokte@infobeans.com",
+      "address": "chicago",
+      "contact": "7866666666",
+      "totalPrice": 8712,
+      "id": "2"
+    },
+    {
+      "id": "a2d0",
+      "email": "shreyas.dhokte@infobeans.com",
+      "address": "chicago",
+      "contact": "7866666666",
+      "totalPrice": 324
+    },
+    {
+      "id": "0055",
+      "email": "shreyas.dhokte@infobeans.com",
+      "address": "chicago",
+      "contact": "7866666666",
+      "totalPrice": 324,
+      "userId": "4"
+    },
+    {
+      "id": "b939",
+      "email": "shreyas.dhokte@infobeans.com",
+      "address": "chicago",
+      "contact": "7866666666",
+      "totalPrice": 156,
+      "userId": "4"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+<div class="user-auth">
+    <p class="error">{{authError}}</p>
+    <div class="user-signup" *ngIf="!userloggedin">
+        <h1>User Sign Up</h1>
+        <form #userSignUp="ngForm" (ngSubmit)="signUp(userSignUp.value)" class="common-form">
+            <input
+            type="text"
+            class="form-input"
+            placeholder="Enter User Name"
+            name="name"
+            ngModel
+            required
+            />
+            
+            <input
+            type="email"
+            class="form-input"
+            placeholder="Enter User Email"
+            name="email"
+            ngModel
+            required
+            />
+            <input
+            type="password"
+            class="form-input"
+            placeholder="Enter User password"
+            name="password"
+            ngModel
+            />
+            <button class="form-button">Sign Up</button>
+           
+        </form>
+    </div>
+    <div class="user-login" *ngIf="userloggedin">
+        <h1>User Login</h1>
+        <form #userLogin="ngForm" (ngSubmit)="login(userLogin.value)" class="common-form">
+           
+            <input
+            type="email"
+            class="form-input"
+            placeholder="Enter User Email"
+            name="email"            
+            ngModel
+            #email="ngModel"
+            required
+            />
+            <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Email is invalid</span></p>
+            <input
+            type="password"
+            class="form-input"
+            placeholder="Enter User password"
+            name="password"
+            ngModel
+            #password="ngModel"
+            required
+            />
+            <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Password is invalid</span></p>
+            <button [disabled]="userLogin.invalid" class="form-button">Login</button> 
+            <p>Create an account? <a (click)="openSignup()">SignUp</a></p>
+        </form>
+    </div>
+    
+</div>
